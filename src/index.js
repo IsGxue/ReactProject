@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App1 from './view/04/index';
+import Tab from './view/tab/index';
 import reportWebVitals from './reportWebVitals';
 /* <App />    普通js对象 */
 
 
   ReactDOM.render(
     <React.StrictMode>
-     <App1 />    
+     <Tab />    
     </React.StrictMode>,
     document.getElementById('root')
   );
