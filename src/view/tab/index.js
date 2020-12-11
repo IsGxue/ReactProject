@@ -12,7 +12,7 @@ class Tab extends React.Component {
     }
     clickEvent(e) {
         console.log(this)
-        if (e.target.dataset.btnid == '1') {
+        if (e.target.dataset.btnid === '1') {
             this.setState({
                 isShow1: 'content active',
                 isShow2: 'content',

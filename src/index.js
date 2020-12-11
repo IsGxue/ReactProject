@@ -1,15 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Tab from './view/tab/index';
+import Login from './views/login/index';
 import reportWebVitals from './reportWebVitals';
 /* <App />    普通js对象 */
+import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
+
+// var ReactRouter = require('react-router')
+// var Router = ReactRouter.Router
+// var Route = ReactRouter.Route
+// var Link = ReactRouter.Link
 
 
   ReactDOM.render(
-    <React.StrictMode>
-     <Tab />    
-    </React.StrictMode>,
+    // <React.StrictMode>
+     <Login />    
+    // </React.StrictMode>
+    ,
     document.getElementById('root')
   );
 
